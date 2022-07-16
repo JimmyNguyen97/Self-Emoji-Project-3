@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.emoji {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fire {
+    display: none;
+}
+
+.water {
+    display: none;
+}
+
+.earth {
+    display:none;
+}
+
+.air {
+    display: none;
+}
+
+.active {
+    display: block;
+}
